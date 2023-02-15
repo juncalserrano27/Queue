@@ -8,7 +8,7 @@ public class Queue {
 		MAX=queue.length;
 		tail=0;
 	}
-	public void push(char value) {
+	public void insert(char value) {
 		if(tail==MAX) {
 			System.out.println("No se admiten más");
 			return;
